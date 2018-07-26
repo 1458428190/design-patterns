@@ -1,8 +1,7 @@
 package com.gdufe.abstractfactorypattern;
 
 import lombok.Data;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.commons.lang.builder.ToStringBuilder;
 
 /**
  * @Author: laichengfeng
@@ -11,8 +10,6 @@ import org.slf4j.LoggerFactory;
  */
 @Data
 public class ColorShape {
-
-    private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     private Shape shape;
 

@@ -1,22 +1,21 @@
 package com.gdufe.abstractfactorypattern;
 
-import org.apache.commons.lang.StringUtils;
-
 /**
  * @Author: laichengfeng
- * @Description: 工厂创造器
+ * @Description: 产品生产
  * @Date: 2018/7/26  16:18
  */
 public class FactoryProducer {
-    public static ColorShapeAbstractFactory getFactory(String factoryType) {
-        // TODO 太多重复代码, 改为AOP切入判断?
-        if(StringUtils.isEmpty(factoryType)) {
-            return null;
+    public static ColorShapeAbstractFactory makeFactory(ColorShapeType type){
+        switch (type) {
+            case RED_CIRCLE: return new RedCircleFactoryColorShape();
+            case GREEN_SQUARE: return new GreenSquareFactoryColorShape();
+            case BLUE_RECTANGLE: return new BlueRectangleFactoryColorShape();
+            default: throw new IllegalArgumentException("no support the type");
         }
-        switch (factoryType) {
-            case "COLOR": return new RedCircleFactoryColorShape();
-            case "SHAPE": return new GreenSquareFactoryColorShape();
-            default: return null;
-        }
+    }
+
+    public enum ColorShapeType {
+        RED_CIRCLE, GREEN_SQUARE, BLUE_RECTANGLE;
     }
 }

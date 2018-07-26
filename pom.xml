@@ -52,6 +52,7 @@
         <module>factory_pattern</module>
         <module>abstract-factory-pattern</module>
         <module>singleton-pattern</module>
+        <module>builder-pattern</module>
     </modules>
 
     <build>
