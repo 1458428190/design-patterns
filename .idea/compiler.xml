@@ -7,17 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="abstract-factory-pattern" />
-        <module name="builderpattern" />
-        <module name="factory-pattern" />
-        <module name="singletonpattern" />
+        <module name="builder-pattern" />
+        <module name="common" />
+        <module name="factory_pattern" />
+        <module name="singleton-pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="abstract-factory-pattern" target="1.8" />
-      <module name="builderpattern" target="1.8" />
+      <module name="builder-pattern" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="design-patterns" target="1.8" />
-      <module name="factory-pattern" target="1.8" />
-      <module name="singletonpattern" target="1.8" />
+      <module name="factory_pattern" target="1.8" />
+      <module name="singleton-pattern" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

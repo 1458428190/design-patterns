@@ -3,10 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/abstract-factory-pattern/abstract-factory-pattern.iml" filepath="$PROJECT_DIR$/abstract-factory-pattern/abstract-factory-pattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/builder-pattern/builderpattern.iml" filepath="$PROJECT_DIR$/builder-pattern/builderpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/builder-pattern/builder-pattern.iml" filepath="$PROJECT_DIR$/builder-pattern/builder-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/design-patterns.iml" filepath="$PROJECT_DIR$/.idea/design-patterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/factory_pattern/factory-pattern.iml" filepath="$PROJECT_DIR$/factory_pattern/factory-pattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/singleton-pattern/singletonpattern.iml" filepath="$PROJECT_DIR$/singleton-pattern/singletonpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factory_pattern/factory_pattern.iml" filepath="$PROJECT_DIR$/factory_pattern/factory_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/singleton-pattern/singleton-pattern.iml" filepath="$PROJECT_DIR$/singleton-pattern/singleton-pattern.iml" />
     </modules>
   </component>
 </project>
