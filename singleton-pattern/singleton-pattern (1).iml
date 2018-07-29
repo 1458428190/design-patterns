@@ -6,12 +6,18 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/target/classes" />
-    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <output url="file://$MODULE_DIR$/../../../design-pattern/design-patterns/singleton-pattern/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../design-pattern/design-patterns/singleton-pattern/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../design-pattern/design-patterns/singleton-pattern/src/main/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../../design-pattern/design-patterns/singleton-pattern/src/main/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../design-pattern/design-patterns/singleton-pattern/src/test/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../../design-pattern/design-patterns/singleton-pattern/src/test/java" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
