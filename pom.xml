@@ -51,6 +51,7 @@
         <module>singleton-pattern</module>
         <module>builder-pattern</module>
         <module>common</module>
+        <module>strategy-pattern</module>
     </modules>
 
     <build>
