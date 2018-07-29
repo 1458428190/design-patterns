@@ -1,4 +1,4 @@
-package com.gdufe.common.utils;
+package com.gdufe.common.util;
 
 import java.math.BigDecimal;
 import java.util.Map;
@@ -8,7 +8,7 @@ import java.util.Map;
  * @Description: 有关Map的骚操作
  * @Date: 2018/7/27  16:46
  */
-public class MapUtil<K, V extends Number> {
+public class MapUtils<K, V extends Number> {
 
     /**
      * 获取Map中对应最值value的key
