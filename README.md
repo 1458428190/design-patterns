@@ -12,20 +12,19 @@
 - 合成复用原则：尽量使用合成/聚合,而不是使用继承。
 
 ### 创建型模式
-- 工厂模式
+- 工厂模式：将类的实例化操作延迟到子类中完成，即由子类来决定究竟应该实例化（创建）哪一个类
 
 ![image](http://www.runoob.com/wp-content/uploads/2014/08/factory_pattern_uml_diagram.jpg)
 
-- 抽象工厂模式(引入了网上图片)
+- 抽象工厂模式(引入了网上图片)：提供了一个创建一系列相关或相互依赖对象的接口，而无须指定它们具体的类
 
 ![image](https://github.com/iluwatar/java-design-patterns/blob/master/abstract-factory/etc/diagram1.png?raw=true)  
 
-- 单例模式
+- 单例模式：确保在系统中某一个类只有一个实例，而且自行实例化并向整个系统提供这个实例
 
+- 建造者模式：将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示
 
-
-- 建造者模式
-- 原型模式
+- 原型模式：
 
 ### 结构型模式
 - 适配器模式
