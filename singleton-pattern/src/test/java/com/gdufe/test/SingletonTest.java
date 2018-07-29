@@ -1,6 +1,7 @@
 package com.gdufe.test;
 
 import com.gdufe.DCLSingleton;
+import com.gdufe.StaticCodeBlockSingleton;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -208,5 +209,20 @@ public class SingletonTest {
     @Test
     public void testStaticInnerSingleton() {
 
+    }
+
+    @Test
+    public void testStaticCodeBlockSingleton(){
+        Object objectTemp = StaticCodeBlockSingleton.getMyObject();
+        String temp = objectTemp.toString();
+        System.out.println(temp);
+        for(int i=0 ;i<100 ;i++){
+            Object object = StaticCodeBlockSingleton.getMyObject();
+            if(object.toString().equals(temp)){
+
+            }else{
+                System.out.println("we are different");
+            }
+        }
     }
 }
