@@ -10,7 +10,9 @@ import com.gdufe.behavior.RunBehavior;
  */
 public class Runner extends Person{
 
-    //通过构造器给Runner指定他的走路方式
+    /**
+     * 通过构造器给Runner指定他的走路方式
+     */
     public Runner(){
         walkBehavior = new RunBehavior();
     }
