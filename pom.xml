@@ -30,7 +30,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
         </dependency>
 
         <dependency>
@@ -51,6 +50,9 @@
         <module>singleton-pattern</module>
         <module>builder-pattern</module>
         <module>common</module>
+        <module>adapter-pattern</module>
+        <module>adapter-pattern</module>
+        <module>bridge-pattern</module>
     </modules>
 
     <build>
