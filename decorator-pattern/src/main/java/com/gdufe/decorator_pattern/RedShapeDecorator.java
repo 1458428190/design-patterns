@@ -16,7 +16,7 @@ public class RedShapeDecorator extends ShapeDecorator {
         setRedBorder();
     }
 
-    public void setRedBorder() {
+    private void setRedBorder() {
         System.out.println("set Red border!");
     }
 }
