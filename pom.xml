@@ -53,6 +53,7 @@
         <module>adapter-pattern</module>
         <module>adapter-pattern</module>
         <module>bridge-pattern</module>
+        <module>filter-pattern</module>
     </modules>
 
     <build>
