@@ -21,20 +21,30 @@
 ![image](https://github.com/iluwatar/java-design-patterns/blob/master/abstract-factory/etc/diagram1.png?raw=true)  
 
 - 单例模式：确保在系统中某一个类只有一个实例，而且自行实例化并向整个系统提供这个实例
+![image](https://img-blog.csdn.net/20160116152340758)
 
 - 建造者模式：将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示
+![image](http://my.csdn.net/uploads/201203/25/1332654150_2478.jpg)
 
 - 原型模式：
+![image](http://my.csdn.net/uploads/201203/26/1332722887_7899.jpg)
 
 ### 结构型模式
 - 适配器模式: 将一个接口转换成客户希望的另一个接口，适配器模式使接口不兼容的那些类可以一起工作，其别名为包装器(Wrapper)。适配器模式既可以作为类结构型模式，也可以作为对象结构型模式。
+![image](http://upload-images.jianshu.io/upload_images/944365-24c6bf44da1b79ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 桥接模式: 将抽象部分与它的实现部分分离，使它们都可以独立地变化。
+![image](https://img-blog.csdn.net/20160328190002031)
 
 - 过滤器模式: 允许开发人员使用不同的标准来过滤一组对象，通过逻辑运算以解耦的方式把它们连接起来。这种类型的设计模式属于结构型模式，它结合多个标准来获得单一标准。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/filter_pattern_uml_diagram.jpg)
          
 - 组合模式: 将对象组合成树形结构以表示"部分-整体"的层次结构。组合模式使得用户对单个对象和组合对象的使用具有一致性。
-- 装饰者模式
+![image](https://img-blog.csdn.net/20160329211240770)
+
+- 装饰者模式: 动态地给一个对象添加一些额外的职责。就增加功能来说，装饰器模式相比生成子类更为灵活。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/decorator_pattern_uml_diagram.jpg)
+
 - 外观模式
 - 享元模式
 - 代理模式
