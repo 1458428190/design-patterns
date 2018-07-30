@@ -54,6 +54,7 @@
         <module>adapter-pattern</module>
         <module>bridge-pattern</module>
         <module>filter-pattern</module>
+        <module>composite-pattern</module>
     </modules>
 
     <build>
