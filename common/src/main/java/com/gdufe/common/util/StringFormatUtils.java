@@ -1,4 +1,4 @@
-package com.gdufe.common.utils;
+package com.gdufe.common.util;
 
 /**
  * @Author: laichengfeng
