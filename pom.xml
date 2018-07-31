@@ -57,6 +57,7 @@
         <module>composite-pattern</module>
         <module>decorator-pattern</module>
         <module>facade-pattern</module>
+        <module>flyweight-pattern</module>
     </modules>
 
     <build>

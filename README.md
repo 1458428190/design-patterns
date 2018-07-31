@@ -45,9 +45,14 @@
 - 装饰者模式: 动态地给一个对象添加一些额外的职责。就增加功能来说，装饰器模式相比生成子类更为灵活。
 ![image](http://www.runoob.com/wp-content/uploads/2014/08/decorator_pattern_uml_diagram.jpg)
 
-- 外观模式
-- 享元模式
-- 代理模式
+- 外观模式: 为复杂子系统提供一个一致的接口
+![image](http://www.runoob.com/wp-content/uploads/2014/08/facade_pattern_uml_diagram.jpg)
+
+- 享元模式: 通过运用共享技术有效地支持大量细粒度对象的复用
+![image](http://www.runoob.com/wp-content/uploads/2014/08/flyweight_pattern_uml_diagram-1.jpg)
+
+- 代理模式: 给某一个对象提供一个代理， 并由代理对象控制对原对象的引用
+![image](http://www.runoob.com/wp-content/uploads/2014/08/proxy_pattern_uml_diagram.jpg)
 
 ### 行为型模式
 - 责任链模式
