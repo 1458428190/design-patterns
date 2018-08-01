@@ -59,9 +59,13 @@
 ![image](http://www.runoob.com/wp-content/uploads/2014/08/chain_pattern_uml_diagram.jpg)
 
 - 命令模式：
-- 解释器模式
-- 迭代器模式
-- 中介者模式
+- 解释器模式: 给定一个语言，定义它的文法表示，并定义一个解释器，这个解释器使用该标识来解释语言中的句子。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/interpreter_pattern_uml_diagram.jpg)
+
+- 迭代器模式: 提供一种方法顺序访问一个聚合对象中各个元素, 而又无须暴露该对象的内部表示。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/iterator_pattern_uml_diagram.jpg)
+
+- 中介者模式: 
 - 备忘录模式
 - 观察者模式
 - 状态模式

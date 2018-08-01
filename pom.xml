@@ -60,6 +60,7 @@
         <module>flyweight-pattern</module>
         <module>proxy-pattern</module>
         <module>chain-pattern</module>
+        <module>interpreter-pattern</module>
     </modules>
 
     <build>
