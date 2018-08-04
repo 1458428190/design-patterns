@@ -65,9 +65,13 @@
 - 迭代器模式: 提供一种方法顺序访问一个聚合对象中各个元素, 而又无须暴露该对象的内部表示。
 ![image](http://www.runoob.com/wp-content/uploads/2014/08/iterator_pattern_uml_diagram.jpg)
 
-- 中介者模式: 
-- 备忘录模式
-- 观察者模式
+- 中介者模式: 用一个中介对象来封装一系列的对象交互，中介者使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/mediator_pattern_uml_diagram.jpg)
+
+- 备忘录模式: 在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/memento_pattern_uml_diagram.jpg)
+
+- 观察者模式: 
 - 状态模式
 - 空对象模式
 - 策略模式
