@@ -77,8 +77,10 @@
 - 状态模式: 允许对象在内部状态发生改变时改变它的行为，对象看起来好像修改了它的类。
 ![image](http://www.runoob.com/wp-content/uploads/2014/08/state_pattern_uml_diagram_1.png)
 
-- 空对象模式
-- 策略模式
+- 空对象模式:在空对象模式（Null Object Pattern）中，一个空对象取代 NULL 对象实例的检查。Null 对象不是检查空值，而是反应一个不做任何动作的关系。这样的 Null 对象也可以在数据不可用的时候提供默认的行为。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/null_pattern_uml_diagram.jpg)
+
+- 策略模式: 
 - 模板模式
 - 访问者模式
 
