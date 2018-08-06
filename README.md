@@ -74,7 +74,9 @@
 - 观察者模式: 定义对象间的一种一对多的依赖关系，当一个对象的状态发生改变时，所有依赖于它的对象都得到通知并被自动更新。
 ![image](http://www.runoob.com/wp-content/uploads/2014/08/observer_pattern_uml_diagram.jpg)
 
-- 状态模式: 
+- 状态模式: 允许对象在内部状态发生改变时改变它的行为，对象看起来好像修改了它的类。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/state_pattern_uml_diagram_1.png)
+
 - 空对象模式
 - 策略模式
 - 模板模式
