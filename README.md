@@ -80,7 +80,9 @@
 - 空对象模式:在空对象模式（Null Object Pattern）中，一个空对象取代 NULL 对象实例的检查。Null 对象不是检查空值，而是反应一个不做任何动作的关系。这样的 Null 对象也可以在数据不可用的时候提供默认的行为。
 ![image](http://www.runoob.com/wp-content/uploads/2014/08/null_pattern_uml_diagram.jpg)
 
-- 策略模式: 
+- 策略模式: 在策略模式中，我们创建表示各种策略的对象和一个行为随着策略对象改变而改变的 context 对象。策略对象改变 context 对象的执行算法。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/strategy_pattern_uml_diagram.jpg)
+
 - 模板模式
 - 访问者模式
 
