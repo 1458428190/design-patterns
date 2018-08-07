@@ -66,6 +66,7 @@
         <module>observer-pattern</module>
         <module>state-pattern</module>
         <module>nullobject-pattern</module>
+        <module>template-pattern</module>
     </modules>
 
     <build>

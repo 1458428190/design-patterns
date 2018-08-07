@@ -83,7 +83,8 @@
 - 策略模式: 在策略模式中，我们创建表示各种策略的对象和一个行为随着策略对象改变而改变的 context 对象。策略对象改变 context 对象的执行算法。
 ![image](http://www.runoob.com/wp-content/uploads/2014/08/strategy_pattern_uml_diagram.jpg)
 
-- 模板模式
+- 模板模式: 定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/template_pattern_uml_diagram.jpg)
 - 访问者模式
 
 ### J2EE模式
