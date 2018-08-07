@@ -67,6 +67,7 @@
         <module>state-pattern</module>
         <module>nullobject-pattern</module>
         <module>template-pattern</module>
+        <module>visitor-pattern</module>
     </modules>
 
     <build>

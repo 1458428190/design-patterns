@@ -85,7 +85,8 @@
 
 - 模板模式: 定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
 ![image](http://www.runoob.com/wp-content/uploads/2014/08/template_pattern_uml_diagram.jpg)
-- 访问者模式
+- 访问者模式: 主要将数据结构与数据操作分离
+![image](http://www.runoob.com/wp-content/uploads/2014/08/visitor_pattern_uml_diagram.jpg)
 
 ### J2EE模式
 - MVC模式
