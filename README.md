@@ -45,23 +45,48 @@
 - 装饰者模式: 动态地给一个对象添加一些额外的职责。就增加功能来说，装饰器模式相比生成子类更为灵活。
 ![image](http://www.runoob.com/wp-content/uploads/2014/08/decorator_pattern_uml_diagram.jpg)
 
-- 外观模式
-- 享元模式
-- 代理模式
+- 外观模式: 为复杂子系统提供一个一致的接口
+![image](http://www.runoob.com/wp-content/uploads/2014/08/facade_pattern_uml_diagram.jpg)
+
+- 享元模式: 通过运用共享技术有效地支持大量细粒度对象的复用
+![image](http://www.runoob.com/wp-content/uploads/2014/08/flyweight_pattern_uml_diagram-1.jpg)
+
+- 代理模式: 给某一个对象提供一个代理， 并由代理对象控制对原对象的引用
+![image](http://www.runoob.com/wp-content/uploads/2014/08/proxy_pattern_uml_diagram.jpg)
 
 ### 行为型模式
-- 责任链模式
-- 命令模式
-- 解释器模式
-- 迭代器模式
-- 中介者模式
-- 备忘录模式
-- 观察者模式
-- 状态模式
-- 空对象模式
-- 策略模式
-- 模板模式
-- 访问者模式
+- 责任链模式: 避免请求发送者与接收者耦合在一起，让多个对象都有可能接收请求，将这些对象连接成一条链，并且沿着这条链传递请求， 直到有对象处理它为止
+![image](http://www.runoob.com/wp-content/uploads/2014/08/chain_pattern_uml_diagram.jpg)
+
+- 命令模式：
+- 解释器模式: 给定一个语言，定义它的文法表示，并定义一个解释器，这个解释器使用该标识来解释语言中的句子。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/interpreter_pattern_uml_diagram.jpg)
+
+- 迭代器模式: 提供一种方法顺序访问一个聚合对象中各个元素, 而又无须暴露该对象的内部表示。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/iterator_pattern_uml_diagram.jpg)
+
+- 中介者模式: 用一个中介对象来封装一系列的对象交互，中介者使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/mediator_pattern_uml_diagram.jpg)
+
+- 备忘录模式: 在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/memento_pattern_uml_diagram.jpg)
+
+- 观察者模式: 定义对象间的一种一对多的依赖关系，当一个对象的状态发生改变时，所有依赖于它的对象都得到通知并被自动更新。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/observer_pattern_uml_diagram.jpg)
+
+- 状态模式: 允许对象在内部状态发生改变时改变它的行为，对象看起来好像修改了它的类。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/state_pattern_uml_diagram_1.png)
+
+- 空对象模式:在空对象模式（Null Object Pattern）中，一个空对象取代 NULL 对象实例的检查。Null 对象不是检查空值，而是反应一个不做任何动作的关系。这样的 Null 对象也可以在数据不可用的时候提供默认的行为。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/null_pattern_uml_diagram.jpg)
+
+- 策略模式: 在策略模式中，我们创建表示各种策略的对象和一个行为随着策略对象改变而改变的 context 对象。策略对象改变 context 对象的执行算法。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/strategy_pattern_uml_diagram.jpg)
+
+- 模板模式: 定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
+![image](http://www.runoob.com/wp-content/uploads/2014/08/template_pattern_uml_diagram.jpg)
+- 访问者模式: 主要将数据结构与数据操作分离
+![image](http://www.runoob.com/wp-content/uploads/2014/08/visitor_pattern_uml_diagram.jpg)
 
 ### J2EE模式
 - MVC模式
