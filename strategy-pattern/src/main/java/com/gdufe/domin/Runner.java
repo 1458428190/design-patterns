@@ -20,13 +20,13 @@ public class Runner extends Person{
     public void display() {
         System.out.println("I am runner!");
     }
-
-    public static void main(String [] args){
-        Runner runner = new Runner();
-        //跑步选手开始跑步
-        runner.performWalk();
-        //跑步选手突然想散步，通过setWalkBehavior改变他的走路方式;
-        runner.setWalkBehavior(new PromenadeBehavior());
-        runner.performWalk();
-    }
+//
+//    public static void main(String [] args){
+//        Runner runner = new Runner();
+//        //跑步选手开始跑步
+//        runner.performWalk();
+//        //跑步选手突然想散步，通过setWalkBehavior改变他的走路方式;
+//        runner.setWalkBehavior(new PromenadeBehavior());
+//        runner.performWalk();
+//    }
 }

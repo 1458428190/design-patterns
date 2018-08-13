@@ -57,6 +57,17 @@
         <module>composite-pattern</module>
         <module>decorator-pattern</module>
         <module>facade-pattern</module>
+        <module>flyweight-pattern</module>
+        <module>proxy-pattern</module>
+        <module>chain-pattern</module>
+        <module>interpreter-pattern</module>
+        <module>mediator-pattern</module>
+        <module>memento-pattern</module>
+        <module>observer-pattern</module>
+        <module>state-pattern</module>
+        <module>nullobject-pattern</module>
+        <module>template-pattern</module>
+        <module>visitor-pattern</module>
     </modules>
 
     <build>
